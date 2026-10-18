@@ -3,7 +3,7 @@ import type { NextConfig } from 'next';
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   async rewrites() {
-    return [{ source: '/api/:path*', destination: 'devjourney-fullstack.vercel.app' }];
+    return [{ source: '/api/:path*', destination: 'http://devjourney-fullstack.vercel.app:8000/api/:path*/' }];
   },
 };
 export default nextConfig;
