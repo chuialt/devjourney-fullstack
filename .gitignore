@@ -1,0 +1,36 @@
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/tsconfig.tsbuildinfo
+# Django
+backend/db.sqlite3
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+backend/*/*/*/__pycache__/
+backend/.venv/
+*.py[cod]
+.env
+.env.local
+.DS_Store
+
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Next.js
+node_modules/
+.next/
+out/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
